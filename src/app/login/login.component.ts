@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
@@ -16,10 +15,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  userLogin(){
-    if(this.Username == "Admin" && this.Password == "admin123"){
-      console.log("Welcome")
-    }
-  }
+  
+
 
 }

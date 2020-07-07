@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
@@ -16,7 +16,8 @@ import { ProblemsComponent } from './problems/problems.component';
     LoginComponent,
     SubmissionsComponent,
     VideosComponent,
-    ProblemsComponent
+    ProblemsComponent,
+    FormsModule
   ],
   imports: [
     BrowserModule,
